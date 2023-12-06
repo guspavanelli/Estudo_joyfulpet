@@ -3,15 +3,15 @@
     padding: 0;
 }
 
-body {
+body{
     width: 1600px;
     height: 2850px;
 }
 
-
 .nav{
     display: flex;
 }
+
 .nav_bar {
     display: flex;
     background-color: blue;
