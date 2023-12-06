@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1600px;
+    height: 2850px;
+}
+
+
+.nav{
+    display: flex;
+}
+.nav_bar {
+    display: flex;
+    background-color: blue;
+    
+}
+
+.nav_bar > .nav_logo > img{
+    width: 46px;
+    height: 46px;
+}
+
+.nav_bar > div > h3 {
+    color: #E9473C;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
