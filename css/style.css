@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+li {
+    list-style-type: none;
+}
+
+/* PARTE ESQUEDA DA BARRA DE NAVEGAÇÃO */
+
+/* START */
+
 body{
     width: 1600px;
     height: 2850px;
@@ -10,17 +18,23 @@ body{
 
 .nav{
     display: flex;
+    margin-left: 215px;    
+    
 }
 
 .nav_bar {
     display: flex;
     background-color: blue;
+    width:234px;
+    height:76px;
+    align-items: center;
     
 }
 
 .nav_bar > .nav_logo > img{
     width: 46px;
     height: 46px;
+    margin-right:20px;
 }
 
 .nav_bar > div > h3 {
@@ -31,4 +45,28 @@ body{
     font-weight: 900;
     line-height: normal;
     text-transform: uppercase;
+}
+
+/* END */
+
+/* LISTA DE OPÇÕES DA BARRA DA NAVEGAÇÃO */
+
+/* START */
+
+.nav > div .nav_bar_options {
+    background-color:orange;
+}
+
+.nav > div > ul > .nav_bar_homelink {
+    color:#E9473C;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+nav > div > ul > li {
+
 }
